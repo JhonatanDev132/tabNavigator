@@ -13,7 +13,7 @@ export default function App() {
   return (
     <NavigationContainer>
     <Tab.Navigator initialRouteName="Home">
-      <Tab.Screen name="Ola" component={Ola} options={{ headerShown: false }} />
+      <Tab.Screen name="Ola" component={Ola} options={{ headerShown: false, tabBarBadge: 5 }} />
       <Tab.Screen name="Tchau" component={Tchau} />
     </Tab.Navigator>
   </NavigationContainer>
